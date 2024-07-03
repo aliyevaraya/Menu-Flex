@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 100vh;
+    background: #e0f0e6;
+}
+h1,h2{
+    font: 2.5em Arial;
+    color: #595b58;
+    margin: 20px 0;
+    text-align: center;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background: #312f30;
+    padding: 10px;
+}
+#menu{
+    display: flex;
+    gap: 30px;
+}
+#menu a{
+    color: #c6c6c6;
+}
+form{
+    display: flex;
+}
+form input{
+padding: 10px;
+outline: none;
+border: none;
+}
+.submit{
+    background: #66a38f;
+    color: #fff;
+    cursor: pointer;
+}
+.fa-bars{
+    font-size: 2em;
+    color: #fff;
+}
